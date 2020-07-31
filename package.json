@@ -4,7 +4,8 @@
   "description": "Gestor de proyectos y tareas con RBAC y seguimiento de tiempos.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "mocha"
   },
   "author": "Jairo Chapela Martínez",
   "license": "ISC",
@@ -19,5 +20,10 @@
     "md5": "^2.2.1",
     "moment": "^2.27.0",
     "sequelize": "^6.3.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^84.0.1",
+    "mocha": "^8.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
   }
 }
